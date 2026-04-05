@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/profile-pic.avif">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>I'm Anagha M J</h1>
+        <p><strong>Web Developer</strong></p>
+
+        <figure>
+            <img src="images/profile-pic.avif" alt="Profile Image" width="100">
+            <figcaption>Anagha</figcaption>
+        </figure>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#technical_skill">Technical skill</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="home">
+            <article>
+                <h2>About Me</h2>
+                <p>
+                    Senior Web Developer with 7+ years of experience building scalable, high-performance web
+                    applications. Expertise in Angular(v21), TypeScript, JavaScript, PHP, and MySQL, with strong focus
+                    on responsive UI development and performance optimization. Proven track record in API integration,
+                    cross-browser compatibility, and improving application efficiency. Hands-on experience with HTML5,
+                    CSS3, SCSS, and modern UI/UX practices. Skilled in Apache server management, Git version control,
+                    and CMS platforms including WordPress. Adept at working in Agile/Scrum environments and
+                    collaborating with cross-functional teams to deliver production-ready solutions.
+                </p>
+            </article>
+        </section>
+        <!-- Skills Section -->
+        <section id="technical_skill">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Programming Languages & Frameworks: HTML5, CSS3, JavaScript, TypeScript, Angular, PHP, jQuery,
+                    Bootstrap, PrimeNG, Material CSS</li>
+                <li>Web Development: Responsive Design, UI/UX Principles, Cross-Browser Compatibility, Performance
+                    Optimization</li>
+                <li>Backend & Databases: PHP, MySQL, SQL, JSON, XML, RESTful APIs</li>
+                <li>Version Control & Server Management: Git, GitHub</li>
+                <li>CMS & Platforms: WordPress</li>
+                <li>API Integrations: Google Pay, PayPal, Stripe, Mailgun, Emotive, Twilio, CDYNE, Omnisend</li>
+            </ul>
+        </section>
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <ol>
+                <li>Matrack Gps Tracker website <a href="https://matrackinc.com/" target="_blank">Have a look
+                        here</a></li>
+                <li>Family1st Website <a href="https://family1st.io/" target="_blank">Have a look here</a></li>
+                <li>Travvise connect <a href="https://travvise.com/" target="_blank">Have a look here</a></li>
+                <li>NBK Booking platform B2C <a href="https://nbktravel.com/">Have a look here</a></li>
+            </ol>
+        </section>
+        <!-- Experience Section -->
+        <section id="experience">
+            <article>
+                <div>
+                    <h2>Experience</h2>
+
+                    <div>
+                        <h4>Travvise Technologies</h4>
+                        <p>Aug 2022 – Ongoing | Sr Front End Developer</p>
+                        <p>Developed travel web apps, API integrations, responsive UI.</p>
+                        <h5>Used Skills</h5>
+                        <ul>
+                            <li>Angular</li>
+                            <li>TypeScript</li>
+                            <li>Tailwind, Primeng, Material Css, Bootstrap</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4>Sieva Networks Solutions</h4>
+                        <p>Feb 2020 – Aug 2022 | Associate Software Engineer</p>
+                        <p>Worked on PHP, MySQL, APIs and frontend UI.</p>
+                        <h5>Used Skills</h5>
+                        <ul>
+                            <li>Php</li>
+                            <li>Bootstrap</li>
+                            <li>JavaScript</li>
+                            <li>MySQL</li>
+                            <li>API integration</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4>Orisys Academy</h4>
+                        <p>2018 – 2020 | Trainee UI Developer</p>
+                        <h5>Used Skills</h5>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4>Sieva Networks Solutions Pvt Ltd</h4>
+                        <p>2015 – 2017 | Trainee Software Engineer</p>
+                        <h5>Used Skills</h5>
+                        <ul>
+                            <li>Python</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </article>
+
+        </section>
+         <!-- Contact me section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="GET">
+
+                <p>
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" id="name" name="name" required minlength="3">
+                </p>
+
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                 <p>
+                    <label for="phone">Phonenumber:</label><br>
+                    <input type="number" id="phone" name="phonr" required>
+                </p>
+
+                <p>
+                    <label for="subject">Subject:</label><br>
+                    <input  type="text" id="subject" name="subject"  pattern="[A-Za-z0-9 ]+" title="Only letters and numbers allowed" required>
+                </p>
+
+                <p>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="5"  pattern=".{10,}" title="Message must be at least 10 characters" required></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Send Message</button>
+                </p>
+
+            </form>
+        </section>
+    </main>
+    <!-- Footer Section -->
+    <footer>
+        <p>
+            <a href="mailto:anagha.manoharj94@gmail.com">
+                anagha.manoharj94@gmail.com
+            </a>
+        </p>
+        <p>&copy; 2026 My Portfolio</p>
+        <figure>
+           <a href="https://www.linkedin.com/in/anaghamanoharsoftwaredeveloper/"><img src="images/linkedin.avif" alt="linkedin " width="50"></a> 
+        </figure>
+    </footer>
+</body>
+
+</html>
